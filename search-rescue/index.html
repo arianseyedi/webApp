@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+-- This is a search and rescue game. 
+-- Rescuer keeps moving within the window on linear paths
+-- looking for the target. Once the outer layer of the
+-- rescuer meets the borders of the target, the target is 
+-- fount and thus the game stops.
+-- 
+-- Author: Arian Seyedi
+-->
+<html>
+<head>
+
+
+	<meta charset="UTF-8">
+	<title>Search &amp; Rescue</title>
+	<link href="SR.css" rel="stylesheet" type="text/css" >
+	<script type="text/javascript" src="SR.js"></script>
+
+
+</head>
+<body>
+
+	
+	<h2 class="center">Search &amp; Rescue Simulation</h2>
+	
+	
+	<div class="center">
+
+		<label>Radar range</label> 
+		<input id="radar" value="20" type="text" />
+		<button onclick="start();">Start</button>
+	
+	</div>
+	
+	
+	<hr />
+	
+	<canvas id="searchArea" width="450" height="300"></canvas>
+	
+	<hr />
+	
+
+	<div class="center">
+	
+	<label class="progress">Elapsed time:</label>
+	<span id="elapsed" class="progress"> 0 </span>
+
+
+	<label class="progress">, Distance To Target:</label>
+	<span id="distTotarget" class="progress"> ? </span>
+	
+	</div>
+	
+</body>
+</html>

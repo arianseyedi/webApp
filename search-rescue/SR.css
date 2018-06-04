@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+/*
+* This is a search and rescue game. 
+* Rescuer keeps moving within the window on linear paths
+* looking for the target. Once the outer layer of the
+* rescuer meets the borders of the target, the target is 
+* fount and thus the game stops.
+* 
+* Author: Arian Seyedi
+*/
+body
+{
+  width:475px;;
+  margin:auto;
+  background-color: #dddddd;  
+  font-family: Calibri, Ariel, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #09C;
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid #999;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.center
+{
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+#searchArea
+{
+  border: 2px solid #09c;
+  background-color: #ffffff;  
+  margin: auto;
+  display: block;
+}
+
+.progress
+{
+
+  font-family: Calibri, Ariel, sans-serif;
+  color: #8B008B; 
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+
+}
